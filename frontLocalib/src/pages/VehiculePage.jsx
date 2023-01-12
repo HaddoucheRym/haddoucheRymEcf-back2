@@ -24,8 +24,8 @@ const VehiculePage = () => {
     })
   }
 
-  const modifiedVehicule = (vehicule, id) => {
-    service.putVehicule(vehicule, id).then(() => {
+  const modifiedVehicule = (vehicule) => {
+    service.putVehicule(vehicule).then(() => {
       findAllVehicule()
     })
   }

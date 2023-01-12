@@ -135,7 +135,7 @@ const AddVehicule = () => {
             <select name="pets" id="pet-select" defaultValue={newVehicl.disponibilite} onChange={(event) => handleChangeDisponibilite(event)}>
               <option value="">--Disponibilité--</option>
               <option value="Disponible">Disponible</option>
-              <option value="Pas disponible">Pas disponible</option>
+              <option value="Pas disponible">Indisponible</option>
             </select>
           </p>
           <p>

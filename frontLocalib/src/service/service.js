@@ -57,26 +57,26 @@ export class Service {
     }
 
   /* Une fonction qui met à jour le locataire dans la base de données. */
-    putLocataire = (element,id) => {
-        return fetch(`${URL}/${id}`, {
-                method: "PATCH",
+    putLocataire = (element) => {
+        return fetch(URL, {
+                method: "PUT",
                 body: JSON.stringify(element),
                 headers: {"Content-type": "Application/json" }
         }).then(ress => ress.json())
     }
 
   /* Mise à jour du véhicule dans la base de données. */
-    putVehicule = (element,id) => {
-        return fetch(`${URL2}/${id}`, {
-                method: "PATCH",
+    putVehicule = (element) => {
+        return fetch(URL2, {
+                method: "PUT",
                 body: JSON.stringify(element),
                 headers: {"Content-type": "Application/json" }
         }).then(ress => ress.json())
     }
 
-    putLocation = (element,id) => {
-        return fetch(`${URL3}/${id}`, {
-                method: "PATCH",
+    putLocation = (element) => {
+        return fetch(URL3, {
+                method: "PUT",
                 body: JSON.stringify(element),
                 headers: {"Content-type": "Application/json" }
         }).then(ress => ress.json())

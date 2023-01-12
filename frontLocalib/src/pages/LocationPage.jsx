@@ -33,8 +33,8 @@ const LocationPage = () => {
         service.findAllV().then(data => setVehicules(data))
     }
 
-    const modifiedLocation = (location, id) => {
-        service.putLocation(location, id).then(() => {
+    const modifiedLocation = (location) => {
+        service.putLocation(location).then(() => {
             findAlllocation()
         })
     }

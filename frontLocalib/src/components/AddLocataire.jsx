@@ -13,7 +13,8 @@ const AddLocataire = () => {
     name: "",
     username: "",
     email: "",
-    phone: ""
+    phone: "",
+    date:""
   })
 
   /* Un crochet qui est appelé après chaque rendu. */
@@ -101,10 +102,10 @@ const AddLocataire = () => {
           <input className='inputNom' type="text" defaultValue={newUser.username} onChange={(event) => handleChangePrenom(event)} placeholder='Pseudo' />
         </p>
         <p>
-          <input className='inputNom' type="date" defaultValue={newUser.date} onChange={(event) => handleChangedate(event)} placeholder='date' />
+          <input className='inputNom' type="text" defaultValue={newUser.date} onChange={(event) => handleChangedate(event)} placeholder='date' />
         </p>
         <p>
-          <input className='inputNom' type="email" defaultValue={newUser.email} onChange={(event) => handleChangeEmail(event)} placeholder='email' />
+          <input className='inputNom' type="string" defaultValue={newUser.email} onChange={(event) => handleChangeEmail(event)} placeholder='email' />
         </p>
         <p>
           <input className='inputNom' type="text" defaultValue={newUser.phone} onChange={(event) => handleChangeTelephone(event)} placeholder='telephone' />

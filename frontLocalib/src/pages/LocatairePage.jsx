@@ -29,8 +29,8 @@ function LocatairePage() {
     })
   }
 
-  const modifiedLocataire = (locataire, id) => {
-    service.putLocataire(locataire, id).then(() => {
+  const modifiedLocataire = (locataire) => {
+    service.putLocataire(locataire).then(() => {
       findAlllocataire()
     })
   }
