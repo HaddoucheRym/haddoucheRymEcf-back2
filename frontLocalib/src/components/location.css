@@ -1,0 +1,78 @@
+@media only screen and (min-width: 768px) {
+    .informationLocation {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 50px;
+        align-items: center;
+        margin-right: 50px;
+        text-align: center
+    }
+
+    .informationLocation p {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modifier {
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(18, 195, 18);
+    }
+
+    .bi {
+        color: white;
+    }
+
+    .danger {
+        border-radius: 50px;
+        border: none;
+        background-color: red;
+    }
+
+   
+}
+
+@media only screen and (max-width: 769px) {
+    
+
+    .immat {
+        display: none;
+    }
+
+    .prix {
+        display: none;
+    }
+
+    .etat {
+        display: none;
+    }
+
+    .informationLocation {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 50px;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .modifier {
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(18, 195, 18);
+    }
+
+    .bi {
+        color: white;
+    }
+
+    .danger {
+        border-radius: 50px;
+        border: none;
+        background-color: red;
+    }
+
+
+}

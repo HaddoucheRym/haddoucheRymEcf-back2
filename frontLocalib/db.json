@@ -1,0 +1,150 @@
+{
+  "locataire": [
+    {
+      "id": 2,
+      "name": "Ervin Howellow",
+      "username": "Antonette",
+      "date": "12/05/1989",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593 x09125"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "date": "12/05/1989",
+      "email": "Nathan@yesenia.net",
+      "phone": "1-463-123-4447"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "date": "12/05/1989",
+      "email": "Julianne.OConner@kory.org",
+      "phone": "493-170-9623 x156"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "date": "12/05/1989",
+      "email": "Lucio_Hettinger@annie.ca",
+      "phone": "(254)954-1289"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "date": "12/05/1989",
+      "email": "Karley_Dach@jasper.info",
+      "phone": "1-477-935-8478 x6430"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "date": "12/05/1989",
+      "email": "Telly.Hoeger@billy.biz",
+      "phone": "(775)976-6794 x41206"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "date": "12/05/1989",
+      "email": "Sherwood@rosamond.me",
+      "phone": "586.493.6943 x140"
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "date": "12/05/1989",
+      "email": "Chaim_McDermott@dana.io",
+      "phone": "(775)976-6794 x41206"
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "date": "12/05/1989",
+      "email": "Rey.Padberg@karina.biz",
+      "phone": "024-648-3804"
+    },
+    {
+      "id": "f0148f4-d0bd-3642-6f44-d4e84f84be",
+      "name": "Leanne Grahame",
+      "username": "Bretti",
+      "email": "Sincere@april.bizz",
+      "phone": "1-770-736-8031 x564422",
+      "date": "2022-10-03"
+    }
+  ],
+  "vehicule": [
+    {
+      "id": 2,
+      "marque": "citroen",
+      "model": "C4",
+      "immatriculation": "156_ABK",
+      "etat": "B",
+      "prix": 35.66,
+      "disponibilite": "Pas disponible",
+      "typeVehicule": "voiture",
+      "image": "./asset/voiture.jpeg"
+    },
+    {
+      "id": "2d2a7fc-4dc2-722e-e635-a7a8d8c5db1e",
+      "marque": "mercedes",
+      "model": "benz GLC",
+      "immatriculation": "124gfdfgfd",
+      "etat": "A",
+      "prix": "2589.25",
+      "disponibilite": "Disponible",
+      "typeVehicule": "voiture",
+      "image": "./asset/voiture.jpeg"
+    },
+    {
+      "id": "858fb81-a7ea-ff05-cf8b-ab417abe1141",
+      "marque": "Reneaut",
+      "model": "Megan",
+      "immatriculation": "158-ggert",
+      "etat": "A",
+      "prix": "85.25",
+      "disponibilite": "Disponible",
+      "typeVehicule": "Voiture",
+      "image": "./asset/voiture.jpeg"
+    },
+    {
+      "id": "c3334-a0c1-a48c-db77-b1ecdcb0b18",
+      "marque": "Audi",
+      "model": "A6",
+      "immatriculation": "158_gdt",
+      "etat": "A",
+      "prix": "25.36",
+      "disponibilite": "Disponible",
+      "typeVehicule": "Voiture",
+      "image": "./asset/voiture.jpeg"
+    }
+  ],
+  "location": [
+    {
+      "id": "51a822d-467d-28f0-fe3-238afcdb4c7",
+      "locataire": "Leanne Grahame",
+      "vehicule": "audi",
+      "vehiculeModel": "a6",
+      "dateDebut": "2022-10-29",
+      "dateFin": "2022-11-05",
+      "prixTotal": "675"
+    },
+    {
+      "id": "aad626-7b75-86f6-74c-2847f3326487",
+      "locataire": "Nicholas Runolfsdottir V",
+      "vehicule": "Reneaut",
+      "vehiculeModel": "Megan",
+      "dateDebut": "2022-10-13",
+      "dateFin": "2022-10-15",
+      "prixTotal": 170.5
+    }
+  ]
+}

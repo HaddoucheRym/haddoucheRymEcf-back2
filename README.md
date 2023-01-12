@@ -19,11 +19,13 @@ des particulieres c'est une application de gestion de locations de véhicules et
 ## Instalation
 Dans votre IDE, il faut se placer dans le dossier backLocalib 
 ``` cd backLocalib```
-et lancer la commande suivante pour charger le dossier libs dans le dossier build
+et lancer la commande suivante pour creer le dossier libs dans le dossier build
 ```./gradlew clean build```
+chargez le projet gradle:
+``` docker-compose build```
 
 ### Lancement de l'application avec un IDE
-pour lancer l'application avec un IDE, lancer la commande suivante:
+pour lancer l'application avec un IDE, il faut se placer dans le dossier racine lancer la commande suivante:
  ```docker-compose up```
 
 

@@ -1,0 +1,93 @@
+@media only screen and (min-width: 768px) {
+    .informationVehicule {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 50px;
+        align-items: center;
+        margin-right: 50px;
+        text-align: center
+    }
+
+    .informationVehicule p {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .etat1{
+        position: relative;
+        right: 25px;
+    }
+
+    .modifier {
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(18, 195, 18);
+    }
+
+    .bi {
+        color: white;
+    }
+
+    .danger {
+        border-radius: 50px;
+        border: none;
+        background-color: red;
+    }
+
+    .btn-info {
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(225, 177, 56);
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .typeVehicule {
+        display: none;
+    }
+
+    .immat {
+        display: none;
+    }
+
+    .prix {
+        display: none;
+    }
+
+    .etat1 {
+        display: none;
+    }
+
+    .informationVehicule {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 50px;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .modifier {
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(18, 195, 18);
+    }
+
+    .bi {
+        color: white;
+    }
+
+    .danger {
+        border-radius: 50px;
+        border: none;
+        background-color: red;
+    }
+
+    .btn-info {
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(225, 177, 56);
+    }
+}
