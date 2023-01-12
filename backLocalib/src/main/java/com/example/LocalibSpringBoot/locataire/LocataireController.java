@@ -35,6 +35,11 @@ public class LocataireController {
         this.locataireService.deleteById(id);
     }
 
+    @PutMapping()
+    public Locataire update(@RequestBody Locataire locataire) {
+       return this.locataireService.save(locataire);
+    }
+
     @GetMapping("name/{name}")
     public List<Locataire> findByName(@PathVariable String name) {
         return this.locataireService.findByName(name);

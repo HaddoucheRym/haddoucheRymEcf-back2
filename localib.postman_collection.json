@@ -1,0 +1,309 @@
+{
+	"info": {
+		"_postman_id": "73a00742-f782-459f-86db-1c45dad33f50",
+		"name": "localib",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "locataire",
+			"item": [
+				{
+					"name": "afficheLocataires",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/locataires",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locataires"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteLocataire",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/locataires/63c002f32ceef1398c5f6fdf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locataires",
+								"63c002f32ceef1398c5f6fdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ajoutLocataire",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"name\": \"Ervin Howellow\",\r\n      \"username\": \"Antonette\",\r\n      \"date\": \"1989-05-04\",\r\n      \"email\": \"Shanna@melissa.tv\",\r\n      \"phone\": \"010-692-6593 x09125\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/locataires",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locataires"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modiffLocataire",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"id\": \"63c00d37335af71b1fd4d843\",\r\n    \"name\": \"Ervin Howellow\",\r\n    \"username\": \"Antonette222\",\r\n    \"date\": \"1989-12-17\",\r\n    \"email\": \"Shanna@melissa.tv\",\r\n    \"phone\": \"010-692-6593 x09125\",\r\n    \"age\": 33\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/locataires",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locataires"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "vahicule",
+			"item": [
+				{
+					"name": "afficheVehicule",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/vehicules",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vehicules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ajoutVehicule",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"marque\": \"Reneaut\",\r\n      \"model\": \"Megan\",\r\n      \"immatriculation\": \"158-ggert\",\r\n      \"etat\": \"A\",\r\n      \"prix\": \"85.25\",\r\n      \"disponibilite\": \"Disponible\",\r\n      \"typeVehicule\": \"Voiture\",\r\n      \"image\": \"./asset/voiture.jpeg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/vehicules",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vehicules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modiffVehicule",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"63c00e16335af71b1fd4d844\",\r\n        \"marque\": \"Reneaut\",\r\n        \"model\": \"Megan\",\r\n        \"immatriculation\": \"158-ABC\",\r\n        \"etat\": \"A\",\r\n        \"prix\": 85.25,\r\n        \"disponibilite\": \"Disponible\",\r\n        \"typeVehicule\": \"Voiture\",\r\n        \"image\": \"./asset/voiture.jpeg\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/vehicules",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vehicules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteVehicule",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/vehicules/63c00e96335af71b1fd4d845",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"vehicules",
+								"63c00e96335af71b1fd4d845"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "location",
+			"item": [
+				{
+					"name": "afficheLocation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/locations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ajoutLocation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dateDebut\": \"2023-03-29\",\r\n      \"dateFin\": \"2023-05-05\",\r\n      \"locataire\": {\r\n        \"id\": \"63c00d37335af71b1fd4d843\",\r\n        \"name\": \"Ervin Howellow\",\r\n        \"username\": \"Antonette222\",\r\n        \"date\": \"1989-12-17\",\r\n        \"email\": \"Shanna@melissa.tv\",\r\n        \"phone\": \"010-692-6593 x09125\",\r\n        \"age\": 33\r\n    },\r\n      \"vehicule\": {\r\n        \"id\": \"63c00e16335af71b1fd4d844\",\r\n        \"marque\": \"Reneaut\",\r\n        \"model\": \"Megan\",\r\n        \"immatriculation\": \"158-ABC\",\r\n        \"etat\": \"A\",\r\n        \"prix\": 85.25,\r\n        \"disponibilite\": \"Disponible\",\r\n        \"typeVehicule\": \"Voiture\",\r\n        \"image\": \"./asset/voiture.jpeg\"\r\n    }\r\n      \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/locations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modiffLocation",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"63c00f1d335af71b1fd4d846\",\r\n    \"dateDebut\": \"2023-04-01\",\r\n    \"dateFin\": \"2023-12-22\",\r\n    \"locataire\": {\r\n        \"id\": \"63c00d37335af71b1fd4d843\",\r\n        \"name\": \"Ervin Howellow\",\r\n        \"username\": \"Antonette222\",\r\n        \"date\": \"1989-12-17\",\r\n        \"email\": \"Shanna@melissa.tv\",\r\n        \"phone\": \"010-692-6593 x09125\",\r\n        \"age\": 33\r\n    },\r\n    \"vehicule\": {\r\n        \"id\": \"63c00e16335af71b1fd4d844\",\r\n        \"marque\": \"Reneaut\",\r\n        \"model\": \"Megan\",\r\n        \"immatriculation\": \"158-ABC\",\r\n        \"etat\": \"A\",\r\n        \"prix\": 85.25,\r\n        \"disponibilite\": \"Disponible\",\r\n        \"typeVehicule\": \"Voiture\",\r\n        \"image\": \"./asset/voiture.jpeg\"\r\n    },\r\n    \"prixt\": 3154.25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/locations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteLocation",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/locations/63c00f6c335af71b1fd4d847",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"locations",
+								"63c00f6c335af71b1fd4d847"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

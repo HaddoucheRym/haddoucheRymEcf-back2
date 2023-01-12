@@ -40,6 +40,11 @@ public class VehiculeController {
         this.vehiculeService.deleteById(id);
     }
 
+    @PutMapping()
+    public Vehicule update(@RequestBody Vehicule vehicule) {
+        return this.vehiculeService.save(vehicule);
+    }
+
     @GetMapping("marque/{marque}")
     @ResponseStatus(code = HttpStatus.OK)
     public List<Vehicule> findByMarque(@PathVariable String marque) {
