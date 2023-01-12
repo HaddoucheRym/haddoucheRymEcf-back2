@@ -28,7 +28,7 @@ function App() {
           <Route path="/addVehicule" element={<AddVehicule />} />
           <Route path="/vehicule/:id" element={<DetailVehicule />} />
           <Route path="/locationPage" element={<LocationPage/>} />
-          <Route path="/addLocation/:id" element={<AddLocation/>} />
+          <Route path="/addLocation" element={<AddLocation/>} />
           <Route path="/locationVehiculePage" element={<LocationVehiculePage/>} />
           <Route path="/pageResponsive" element={<PageResponsive/>} />
         </Routes>

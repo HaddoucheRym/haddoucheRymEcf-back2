@@ -3,6 +3,7 @@ import { useState } from 'react'
 import LocationList from '../layaout/LocationList';
 import { service } from '../service/service';
 import './locationPage.css';
+import { NavLink } from 'react-router-dom';
 
 const LocationPage = () => {
     const [locations, setLocations] = useState([]);
@@ -64,6 +65,9 @@ const LocationPage = () => {
                     )
                     )
                     }
+                    <NavLink to="/addLocation" >
+            <button className='ajouter'  >Ajouter</button>
+          </NavLink>
                 </div>
             </div>
         </>
