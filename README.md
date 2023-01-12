@@ -1,8 +1,12 @@
 # haddoucheRymEcf-back2
 
 ## Description
-ce projet est un projet pour l'entreprise Localib. Il a pour but de faciliter la location de voiture par
-des particulieres c'est une application de gestion de locations de véhicules et de locataires.
+Localib est une application de gestion de locations de véhicules et de locataires.
+
+## A propos
+Vous trouverez dans ce dépôt 2 dossiers à la racine:
+- le dossier frontLocalib qui contient la partie front-end : React js
+- le dossier backLocalib qui contient la partie back-end: Spring boot
 
 ## Prérequis
 - [docker](https://www.docker.com/products/docker-desktop)
@@ -17,15 +21,16 @@ des particulieres c'est une application de gestion de locations de véhicules et
 - IDE javaScript ([VsCode](https://code.visualstudio.com/download))
 
 ## Instalation
-Dans votre IDE, il faut se placer dans le dossier backLocalib 
-``` cd backLocalib```
-et lancer la commande suivante pour creer le dossier libs dans le dossier build
-```./gradlew clean build```
-chargez le projet gradle:
+### Build le projet à l'aide de gradle
+- Dans votre IDE, lancer la commande suivante pour se placer dans le dossier backLocalib :\
+``` cd backLocalib```  
+- Lancer la commande suivante pour le building\
+```./gradlew clean build``` 
+- Pour chargez le projet gradle, taper la commande suivante: \
 ``` docker-compose build```
 
-### Lancement de l'application avec un IDE
-pour lancer l'application avec un IDE, il faut se placer dans le dossier racine lancer la commande suivante:
+### Conteneuriser l'application à l'aide de Docker Compose
+Il faut se placer dans le dossier racine et lancer la commande suivante pour executer l'application avec docker:
  ```docker-compose up```
 
 
